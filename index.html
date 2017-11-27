@@ -12,13 +12,35 @@
             }
 
             .navbar-brand {
-                margin: -15% 0 -30% 0;
+                margin: -5% 0 -30% 0;
             }
 
             .navLogo {}
 
             .navMain {
                 background: black;
+            }
+
+            .navButton {
+                padding-left: 8px;
+                padding-right: 8px;
+            }
+
+            .navSeperator {
+                color: grey;
+            }
+
+            .navBlunder {
+                margin-top: 8px;
+            }
+
+            .logoFix {
+                padding-right: 20px;
+            }
+
+            a {
+                text-decoration: none;
+                color: grey;
             }
         </style>
     </head>
@@ -27,15 +49,38 @@
 
         <nav class="navbar navMain">
             <div class="wrapper">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand logoFix" href="#">
                 <img src="img/logo_cnn_nav_bottom.png" alt="">
               </a>
-                <div class="float-right">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">U.S.</a>
-                        </li>
-                    </ul>
+                <div class="float-right navBlunder">
+                    <div class="navButton row">
+                        <a href="#">U.S.</a>
+                        <span class="navSeperator navButton">|</span>
+                        <a href="#">World</a>
+                        <span class="navSeperator navButton">|</span>
+                        <a href="#">Politics</a>
+                        <span class="navSeperator navButton">|</span>
+                        <a href="#">Money</a>
+                        <span class="navSeperator navButton">|</span>
+                        <a href="#">Opinion</a>
+                        <span class="navSeperator navButton">|</span>
+                        <a href="#">Health</a>
+                        <span class="navSeperator navButton">|</span>
+                        <a href="#">Entertainment</a>
+                        <span class="navSeperator navButton">|</span>
+                        <a href="#">Tech</a>
+                        <span class="navSeperator navButton">|</span>
+                        <a href="#">Style</a>
+                        <span class="navSeperator navButton">|</span>
+                        <a href="#">Travel</a>
+                        <span class="navSeperator navButton">|</span>
+                        <a href="#">Sports</a>
+                        <span class="navSeperator navButton">|</span>
+                        <a href="#">Video</a>
+                        <span class="navSeperator navButton">|</span>
+                        <a href="#">VR</a>
+                    </div>
+
                 </div>
             </div>
         </nav>
